@@ -27,9 +27,9 @@ const images = [
 
 const createGaleryCard = pictInfo => {
     return `
-        <li class="galery-item">
+        <li class="galery-item  list" >
             <a href="#">
-                <img   src="${pictInfo.url}" alt="${pictInfo.alt}"
+                <img  width="360" height="300" src="${pictInfo.url}" alt="${pictInfo.alt}">
             </a>
         </li>
         `;
